@@ -1,0 +1,37 @@
+totalcount,title,dept_no,dept_name
+1,Assistant Engineer,d009,Customer Service
+12,Engineer,d009,Customer Service
+4,Senior Engineer,d009,Customer Service
+80,Senior Staff,d009,Customer Service
+53,Staff,d009,Customer Service
+3,Technique Leader,d009,Customer Service
+38,Assistant Engineer,d005,Development
+276,Engineer,d005,Development
+173,Senior Engineer,d005,Development
+6,Senior Staff,d005,Development
+7,Staff,d005,Development
+44,Technique Leader,d005,Development
+59,Senior Staff,d002,Finance
+45,Staff,d002,Finance
+75,Senior Staff,d003,Human Resources
+56,Staff,d003,Human Resources
+83,Senior Staff,d001,Marketing
+62,Staff,d001,Marketing
+35,Assistant Engineer,d004,Production
+217,Engineer,d004,Production
+141,Senior Engineer,d004,Production
+5,Senior Staff,d004,Production
+4,Staff,d004,Production
+44,Technique Leader,d004,Production
+11,Assistant Engineer,d006,Quality Management
+56,Engineer,d006,Quality Management
+45,Senior Engineer,d006,Quality Management
+13,Technique Leader,d006,Quality Management
+1,Assistant Engineer,d008,Research
+17,Engineer,d008,Research
+6,Senior Engineer,d008,Research
+61,Senior Staff,d008,Research
+58,Staff,d008,Research
+2,Technique Leader,d008,Research
+185,Senior Staff,d007,Sales
+153,Staff,d007,Sales

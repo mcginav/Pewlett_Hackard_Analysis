@@ -26,3 +26,36 @@ INTO retiring_titles
 FROM unique_titles
 Group By title
 ORDER By count desc;
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+e.first_name,
+e.last_name,
+e.birth_date,
+de.from_date,
+de.to_date,
+t.title
+INTO mentorship_eligibility
+FROM employees AS e
+Inner Join dept_emp as de
+ON e.emp_no = de.emp_no
+INNER JOIN titles AS t
+ON t.emp_no = e.emp_no
+WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY emp_no;
+FROM unique_titles as u
+INNER JOIN dept_info as di
+ON (u.emp_no=di.emp_no)
+GROUP BY u.title,di.dept_name
+Order By dept_name;
+--Mentorees by dept
+SELECT COUNT(*)TotalCount, 
+me.title,
+de.dept_no,
+d.dept_name
+INTO mentorees_dept
+FROM mentorship_eligibility AS me
+Inner Join dept_emp as de
+ON me.emp_no = de.emp_no
+INNER JOIN departments AS d
+ON d.dept_no = de.dept_no
+GROUP BY me.title, de.dept_no, d.dept_name
+ORDER BY dept_name;
