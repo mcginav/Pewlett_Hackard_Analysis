@@ -21,6 +21,6 @@ next generation of Pewlett Hackard employees.
 #### The total number of staff eligible for the mentorship program is 1,940
 #### Each department has enough potential retirees to mentor current employees within their department.
 #### There should be a focus on the departments that will be most affected: Development and Production.
-These departments could potentially lose a high number of Senior Engineers to retirement.
+* These departments could potentially lose a high number of Senior Engineers to retirement.
 #### There are currently 276 Engineers and 38 Assistant Engineers in Development that are eligible for the mentorship program.
 #### There are currently 217 Engineers and 35 Assistant Engineers in Production that are eligible for the mentorship program.
