@@ -12,7 +12,7 @@
 ## Summary
 A high number of roles will need to be filled as the "silver tsunami" begins to make an impact.  
 There are enough qualified, retirement-ready employees in the departments to mentor the 
-next genetation of Pewlett Hackard employees.
+next generation of Pewlett Hackard employees.
 ### The Number of Retiring Employees by Department and Title (https://github.com/mcginav/Pewlett_Hackard_Analysis/blob/main/data/retirees_dept)
 #### The departments most affected by the "silver tsunami" are Development with 9,281 potential retirees and Production with 8,174. 
 #### In Development the number of Senior Engineers eligible for retirement is 6,834.
